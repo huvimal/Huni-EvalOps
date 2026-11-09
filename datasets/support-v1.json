@@ -1,0 +1,11 @@
+{
+  "version": "support-v1",
+  "cases": [
+    {"id":"account-02","critical":true,"text":"Có người lạ đăng nhập tài khoản của tôi.","expected":{"category":"account","urgent":true}},
+    {"id":"account-01","critical":false,"text":"Tôi quên mật khẩu và không đăng nhập được.","expected":{"category":"account","urgent":false}},
+    {"id":"delivery-01","critical":false,"text":"Kiện hàng đang ở đâu?","expected":{"category":"delivery","urgent":false}},
+    {"id":"refund-01","critical":false,"text":"Tôi muốn nhận tiền hoàn cho sản phẩm đã trả.","expected":{"category":"refund","urgent":false}},
+    {"id":"other-01","critical":false,"text":"Cửa hàng mở cửa lúc mấy giờ?","expected":{"category":"other","urgent":false}},
+    {"id":"delivery-02","critical":false,"text":"Khi nào giao hàng?","expected":{"category":"delivery","urgent":false}}
+  ]
+}

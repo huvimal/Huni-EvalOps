@@ -1,0 +1,7 @@
+{
+  "mode": "demo",
+  "cases": [
+    {"id":"account-02","change":"regression"},
+    {"id":"delivery-01","change":"stable_pass"}
+  ]
+}

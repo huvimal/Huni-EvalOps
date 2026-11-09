@@ -1,0 +1,7 @@
+{
+  "mode": "demo",
+  "results": {
+    "baseline":[{"id":"delivery","passed":true},{"id":"refund","passed":true}],
+    "router":[{"id":"refund","passed":true},{"id":"delivery","passed":true}]
+  }
+}

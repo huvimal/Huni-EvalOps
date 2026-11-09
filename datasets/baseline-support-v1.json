@@ -1,0 +1,11 @@
+{
+  "dataset_version": "support-v1",
+  "outputs": {
+    "account-02":{"category":"account","urgent":true},
+    "account-01":{"category":"account","urgent":false},
+    "delivery-01":{"category":"delivery","urgent":false},
+    "refund-01":{"category":"refund","urgent":false},
+    "other-01":{"category":"other","urgent":false},
+    "delivery-02":{"category":"delivery","urgent":false}
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "version": "calibration-v1",
+  "cases": [
+    {"id":"cal-01","text":"Cần hoàn tiền.","expected":{"category":"refund","urgent":false},"output":{"category":"refund","urgent":false},"human_pass":true,"note":"Nhãn đúng, không cần diễn giải thêm."},
+    {"id":"cal-02","text":"Có người lạ đăng nhập.","expected":{"category":"account","urgent":true},"output":{"category":"account","urgent":false},"human_pass":false,"note":"Bỏ sót dấu hiệu xâm nhập."},
+    {"id":"cal-03","text":"Kiện hàng đang ở đâu?","expected":{"category":"delivery","urgent":false},"output":{"category":"refund","urgent":false},"human_pass":false,"note":"Sai loại yêu cầu."},
+    {"id":"cal-04","text":"Mấy giờ cửa hàng mở cửa?","expected":{"category":"other","urgent":false},"output":{"category":"other","urgent":false},"human_pass":true,"note":"Nhận diện đúng câu ngoài ba nhóm chính."},
+    {"id":"cal-05","text":"Đơn hàng chưa tới.","expected":{"category":"delivery","urgent":false},"output":{"category":"delivery","urgent":false,"note":"Tôi sẽ kiểm tra."},"human_pass":true,"note":"Người đọc chấp nhận trường bổ sung. API yêu cầu đúng schema."},
+    {"id":"cal-06","text":"Tôi muốn hủy đơn đang giao và được hoàn tiền ngay.","expected":{"category":"delivery","urgent":false},"output":{"category":"delivery","urgent":false},"human_pass":false,"note":"Người chấm yêu cầu làm rõ hai ý định thay vì chọn một nhãn."}
+  ]
+}
