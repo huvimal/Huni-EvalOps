@@ -5,7 +5,7 @@ def classify(text):
     text = text.casefold()
     if "người lạ" in text or "mật khẩu" in text or "đăng nhập" in text:
         is_suspicious = "người lạ" in text
-        return {"category": "account", "urgent": is_suspicious}
+        return {"category": "account", "urgent": False}
     if "giao hàng" in text or "kiện hàng" in text:
         return {"category": "delivery", "urgent": False}
     if "tiền hoàn" in text or "hoàn tiền" in text:
